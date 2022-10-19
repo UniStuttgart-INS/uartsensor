@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.4)
+cmake_minimum_required(VERSION 3.1.3)
 
 project(libUartSensor LANGUAGES CXX)
 
@@ -28,3 +28,5 @@ set(SOURCE
 include_directories(include)
 
 add_library(libUartSensor ${SOURCE})
+
+target_compile_features(libUartSensor PRIVATE cxx_std_17)
