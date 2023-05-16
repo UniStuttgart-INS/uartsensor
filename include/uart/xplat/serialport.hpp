@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <list>
+#include <cstdint>
 
 #include "uart/xplat/export.hpp"
 #include "uart/xplat/port.hpp"

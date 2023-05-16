@@ -60,7 +60,7 @@ constexpr void SwapEndian(T& val)
     union U
     {
         T val;
-        std::array<std::uint8_t, sizeof(T)> raw;
+        std::array<uint8_t, sizeof(T)> raw;
     } src{}, dst{};
 
     src.val = val;
