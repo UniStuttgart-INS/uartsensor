@@ -721,6 +721,9 @@ struct SerialPort::Impl
         case 921600:
             baudrateFlag = B921600;
             break;
+        case 2000000:
+            baudrateFlag = B2000000;
+            break;
 
         #endif
 
