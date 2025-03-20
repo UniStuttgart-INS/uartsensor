@@ -320,7 +320,8 @@ std::vector<uint32_t> UartSensor::supportedBaudrates()
         128000,
         230400,
         460800,
-        921600
+        921600,
+        2000000
     };
 }
 
